@@ -1,0 +1,1 @@
+<?php return ['search placeholder'=>'Մուտքագրեք ապրանքի անվանումը'];

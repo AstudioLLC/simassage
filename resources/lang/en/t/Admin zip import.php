@@ -1,0 +1,1 @@
+<?php return ['choose zip file'=>'Choose ZIP  file','success elements'=>'Success elements','failed elements'=>'Failed elements'];

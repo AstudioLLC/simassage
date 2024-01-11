@@ -1,0 +1,1 @@
+<?php return ['search placeholder'=>'Введите название продукта'];

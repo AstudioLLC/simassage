@@ -1,0 +1,24 @@
+.page404 {
+    max-width: 670px;
+    margin: 130px auto 130px auto;
+}
+
+.description-usual {
+    margin: 14px auto auto auto;
+}
+
+.button-orange {
+    display: block;
+    width: max-content;
+    margin: 30px auto 0 auto;
+}
+
+@media (max-width: 575px) {
+    .description-usual {
+        margin: 4px auto auto auto;
+    }
+
+    .button-orange {
+        margin: 24px auto 0 auto;
+    }
+}

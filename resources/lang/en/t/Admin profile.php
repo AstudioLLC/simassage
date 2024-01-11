@@ -1,0 +1,1 @@
+<?php return ['name'=>'Name','email'=>'Email','current password'=>'Current password','password'=>'Password','change password'=>'Change password','new password'=>'New password','password repeat'=>'Repeat password','forgot password'=>'Forgot your password ?','login'=>'Login','Admin panel'=>'Admin panel'];

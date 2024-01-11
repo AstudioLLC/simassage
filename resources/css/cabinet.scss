@@ -1,0 +1,190 @@
+//body {
+//    .mobile-cabinet {
+//        .cabinet-bar {
+//            display: block;
+//        }
+//    }
+//
+//    .form-checkbox:focus {
+//        outline: none;
+//        box-shadow: unset !important;
+//        border-color: unset !important;
+//    }
+//
+//    .form-select:focus {
+//        outline: none;
+//        box-shadow: unset !important;
+//        border-color: unset !important;
+//    }
+//
+//    .form-textarea:focus {
+//        outline: none;
+//        box-shadow: unset !important;
+//        border-color: unset !important;
+//    }
+//
+//    .order-active {
+//        background: #005291 !important;
+//        color: white !important;
+//    }
+//
+//    .order-info {
+//       display: flex!important;
+//    }
+//
+//    #order-data-table {
+//        tr {
+//            th:not(:first-child) {
+//
+//                border-bottom: solid 2px darkgrey;
+//
+//            }
+//
+//            td:not(:first-child) {
+//                border-bottom: solid 1px darkgrey;
+//
+//            }
+//        }
+//    }
+//
+//    #pick-up {
+//        .iframe {
+//            height: 450px;
+//            width: 100%;
+//        }
+//
+//        .title {
+//            color: #015291;
+//        }
+//
+//        .active {
+//            background: #015291;
+//            color: white !Important;
+//
+//            .title {
+//                color: white !Important;
+//            }
+//        }
+//
+//        .radio-button {
+//            margin-bottom: 1rem;
+//        }
+//
+//        .radio-button__label-wrapper {
+//            border-radius: 50%;
+//            cursor: pointer;
+//            display: block;
+//            padding-left: 2.5rem;
+//            position: relative;
+//            top: 0.25rem;
+//
+//            &:hover .radio-button__input ~ .radio-button__custom-indicator {
+//                border-color: black;
+//            }
+//        }
+//
+//
+//        .radio-button__custom-indicator {
+//            background-color: white;
+//            border: 1px solid #999;
+//            border-radius: 0.25rem;
+//            height: 22px;
+//            left: 0;
+//            position: absolute;
+//            top: 0;
+//            width: 22px;
+//
+//            &::after {
+//                /* background-color: #015291; */
+//                /* border-radius: 50%; */
+//                content: "";
+//                display: none;
+//                height: 15px;
+//                border-width: 0 2px 2px 0;
+//                color: #015291;
+//                transform: rotate(45deg);
+//                left: 6px;
+//                position: absolute;
+//                width: 8px;
+//            }
+//        }
+//
+//        .radio-button__input {
+//            opacity: 0;
+//            position: absolute;
+//            z-index: -1;
+//
+//            &:focus ~ .radio-button__custom-indicator {
+//                border-color: black;
+//            }
+//
+//            &:checked ~ .radio-button__custom-indicator {
+//                &::after {
+//                    display: block;
+//                }
+//            }
+//
+//            &:disabled ~ .radio-button__custom-indicator {
+//                opacity: 0.6;
+//                pointer-events: none;
+//            }
+//        }
+//
+//    }
+//
+//    .tab-active {
+//        background: #015291;
+//        color: white !Important;
+//
+//        a {
+//            color: white !Important;
+//        }
+//    }
+//
+//    #order-table {
+//        tr {
+//            th {
+//
+//                border: dashed 1px darkgrey;
+//                border-top: none;
+//                position: relative;
+//                padding-left: 20px;
+//
+//                svg {
+//                    position: absolute;
+//                    width: 20px;
+//                    background: white;
+//                    left: -10px;
+//                    top: 0;
+//                    height: 32px;
+//                }
+//
+//
+//                &:last-child {
+//                    border-right: none;
+//                }
+//            }
+//
+//            td {
+//                border: dashed 1px darkgrey;
+//
+//                &:first-child {
+//                    border: dashed 1px darkgrey;
+//                }
+//
+//                &:last-child {
+//                    border-right: none;
+//                    border-bottom: none;
+//                }
+//            }
+//
+//            &:last-child {
+//                td {
+//                    border-bottom: none;
+//                }
+//            }
+//
+//        }
+//    }
+//
+//}

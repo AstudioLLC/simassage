@@ -1,0 +1,1 @@
+<?php return ['file'=>'Ֆայլ','download'=>'Ներբեռնել'];

@@ -1,0 +1,1 @@
+<?php return ['name'=>'Անուն','email'=>'էլ․ հասցե','current password'=>'Ընթացիկ գաղտնաբառ','password'=>'Գաղտնաբառ','change password'=>'Փոխել գաղտնաբառը','new password'=>'Նոր գաղտնաբառ','password repeat'=>'Կրկնեք գաղտնաբառը','forgot password'=>'Մոռացե՞լ եք գաղտնաբառը','login'=>'Մուտք','Admin panel'=>'Ադմինիստրատորի վահանակ'];

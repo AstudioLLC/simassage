@@ -1,0 +1,1 @@
+<?php return ['country'=>'Երկիր','color'=>'Գույն','criterions'=>'Չափանիշներ','title'=>'Գրեք վերնագիրը'];

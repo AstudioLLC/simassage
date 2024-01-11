@@ -1,0 +1,1 @@
+<?php return ['choose zip file'=>'Ընտրեք ZIP ֆայլ','success elements'=>'Հաջողված','failed elements'=>'Չհաջողված'];

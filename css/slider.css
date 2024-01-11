@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.close-modal{
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    cursor: pointer;
+}
+.close-modal svg path{
+    fill: white;
+}
+.carousel-block{
+    z-index: 3000;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+}
+
+.owl-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-modal{
+    background-color: black;
+    opacity: 0.87;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.slide{
+    cursor: pointer;
+    width: 80%;
+}
+.slide-header{
+    width: 35%;
+    height: auto;
+    margin-bottom: 40px;
+}
+.owl-prev{
+    position: absolute !important;
+    top: 50% !important;
+    left: 26%;
+    border: 0 !important;
+    color: transparent !important;
+    outline: none !important;
+    background-color: transparent !important;
+    background-image: url('../images/Polygon2.svg') !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    width: 20px;
+}
+.owl-next{
+    position: absolute !important;
+    top: 50% !important;
+    right: 26%;
+    border: 0 !important;
+    color: transparent !important;
+    outline: none !important;
+    background-color: transparent !important;
+    background-image: url('../images/Polygon3.svg') !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    width: 20px;
+}
+.slider2 .owl-nav{
+    display: none;
+}
+
+.carousel{
+    margin: 20px 0 55px;
+}
+.carousel div:first-child div div{
+    width: calc(100% / 7 + 20px);
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.carousel div:first-child div div img{
+    width: 100%;
+}
+
+.slider2 .owl-item img{
+    width: 50% !important;
+}
+@media only screen and (max-width: 1680px) {
+    .carousel div:first-child div div {
+        width: calc(100% / 7 + 1%);
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .carousel div:first-child div div {
+        width: calc(100% / 5 + 12.3%);
+    }
+}
+@media only screen and (max-width: 1075px) {
+    .carousel div:first-child div div {
+        width: calc(100% / 5 + 11.8%);
+    }
+    .slide-header{
+        width: 52%;
+    }
+    .owl-prev{
+        left: 18%;
+    }
+    .owl-next{
+        right: 18%;
+    }
+}
+@media only screen and (max-width: 740px) {
+    .carousel div:first-child div div {
+        width: calc(100% / 3 + 15.5%);
+        margin-right: 0;
+    }
+    .carousel div:first-child div {
+        justify-content: space-between;
+    }
+    .carousel {
+        margin: 20px 0 45px;
+    }
+    .slider2{
+        display: none !important;
+    }
+    .owl-prev{
+        left: 15%;
+    }
+    .owl-next{
+        right: 15%;
+    }
+    .slide-header{
+        width: 55%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .slide-header{
+        width: 80%;
+    }
+    .owl-prev{
+        left: 0;
+    }
+    .owl-next{
+        right: 0;
+    }
+}

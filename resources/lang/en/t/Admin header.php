@@ -1,0 +1,1 @@
+<?php return ['Site users'=>'Site users','Letters'=>'Letters','Items'=>'Products','Statistics'=>'Statistics','Profile settings'=>'Profile settings','Show page'=>'View site','Logout'=>'Logout','Go back'=>'Go back'];

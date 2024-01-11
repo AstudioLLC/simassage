@@ -1,0 +1,1 @@
+<?php return ['client data'=>'Ваши данные','loan rules'=>'Условия кредита'];

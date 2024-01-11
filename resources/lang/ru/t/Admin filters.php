@@ -1,0 +1,1 @@
+<?php return ['country'=>'Страна','color'=>'Цвет','criterions'=>'Критерии','title'=>'Введите название'];

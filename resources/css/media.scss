@@ -1,0 +1,164 @@
+//@media only screen and (max-width: 640px) {
+//    .modal-log {
+//        .content-login {
+//            height: 100vh;
+//            position: absolute;
+//            top: 119px;
+//            overflow-y: scroll;
+//
+//            .content-height {
+//                overflow: scroll;
+//            }
+//        }
+//    }
+//    .table-responsive {
+//        display: block;
+//
+//        overflow-x: auto;
+//    .td-image{
+//            width: 80px;
+//        display: block;
+//    }
+//    }
+//    .column-count-2 {
+//        column-count: 1 !important;
+//    }
+//    .mobile-cabinet {
+//        .cabinet-bar {
+//            display: none;
+//        }
+//    }
+//    .cabinet-home-section {
+//        .cabinet-bar {
+//            display: block;
+//        }
+//    }
+//    #pick-up {
+//        .iframe {
+//            height: 150px !important;
+//        }
+//    }
+//    #info-table {
+//        display: flex !important;
+//        overflow-x: auto;
+//
+//        thead {
+//            display: flex;
+//        }
+//
+//        tbody {
+//            display: flex;
+//            align-items: stretch;
+//        }
+//
+//        tr {
+//            display: inline-grid !important;
+//            grid-template-rows: 100px 55px 50px 50px 50px 50px;
+//            grid-template-columns: 130px;
+//            border-right: solid 1px darkgrey;
+//
+//            th {
+//                padding: 5px;
+//
+//                &:not(:last-child) {
+//                    border-bottom: solid 1px darkgrey;
+//                }
+//
+//                &:first-child {
+//                    height: 100px;
+//                    overflow: hidden;
+//                    display: block;
+//                    display: -webkit-box;
+//                    -webkit-line-clamp: 4;
+//                    overflow: hidden;
+//                    -webkit-box-orient: vertical;
+//                }
+//            }
+//
+//            td {
+//                padding: 5px;
+//
+//                &:not(:last-child) {
+//
+//
+//                    border-bottom: solid 1px darkgrey;
+//
+//                    &:first-child {
+//                        height: 100px;
+//                        overflow: hidden;
+//                        display: block;
+//                        display: -webkit-box;
+//                        -webkit-line-clamp: 4;
+//                        overflow: hidden;
+//                        -webkit-box-orient: vertical;
+//                    }
+//                }
+//            }
+//        }
+//    }
+//    #order-table {
+//        display: flex !important;
+//        overflow-x: auto;
+//
+//        thead {
+//            display: flex;
+//        }
+//
+//        tbody {
+//            display: flex;
+//            align-items: stretch;
+//        }
+//
+//        tr {
+//            display: inline-grid !important;
+//            grid-template-rows: 100px 55px 50px 50px 50px;
+//            grid-template-columns: 130px;
+//            border-top: none !important;
+//
+//            th {
+//                &:last-child {
+//                    border-bottom: none !important;
+//                }
+//
+//                padding: 5px;
+//
+//                &:not(:last-child) {
+//                    //border-bottom: dashed 1px darkgrey;
+//                }
+//
+//                &:first-child {
+//                    height: 100px;
+//                    overflow: hidden;
+//                    display: block;
+//                    display: -webkit-box;
+//                    -webkit-line-clamp: 4;
+//                    overflow: hidden;
+//                    -webkit-box-orient: vertical;
+//                }
+//            }
+//
+//            td {
+//                padding: 5px;
+//
+//                &:not(:last-child) {
+//                    //border-bottom: dashed 1px darkgrey;
+//
+//                    &:first-child {
+//                        border-top: none !important;
+//                        height: 100px;
+//                        overflow: hidden;
+//                        display: block;
+//                        display: -webkit-box;
+//                        -webkit-line-clamp: 4;
+//                        overflow: hidden;
+//                        -webkit-box-orient: vertical;
+//                    }
+//                }
+//
+//                &:last-child {
+//                    border-right: none !important;
+//                }
+//            }
+//        }
+//    }
+//}

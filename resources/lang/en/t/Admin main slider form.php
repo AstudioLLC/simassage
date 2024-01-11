@@ -1,0 +1,1 @@
+<?php return ['top text'=>'Top text','bottom text'=>'Bottom text','button text'=>'Link button text'];

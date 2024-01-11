@@ -1,0 +1,1 @@
+<?php return ['list'=>'Список','add'=>'Добавить','edit'=>'Редактировать','translates'=>'Language translations'];

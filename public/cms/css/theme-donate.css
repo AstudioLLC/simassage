@@ -1,0 +1,48 @@
+.bg-primary {
+    background-color: #800020
+
+!important;
+}
+
+.btn-primary {
+    border-color: #800020
+
+!important;
+    background-color: #800020
+
+!important;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    border-color: #104BA0;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #104BA0;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #104BA0;
+}
+
+.nav-pills .nav-link:hover,
+.nav-pills .nav-link {
+    color: #104BA0;
+}
+
+.text-primary,
+.btn-neutral {
+    color: #800020
+
+!important;
+}
+
+.custom-toggle input:checked + .custom-toggle-slider {
+    border-color: #104BA0;
+}
+
+.custom-toggle input:checked + .custom-toggle-slider:before {
+    background: #800020
+
+!important;
+}

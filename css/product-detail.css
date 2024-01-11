@@ -1,0 +1,42 @@
+/*body .shadow-custom {*/
+/*  box-shadow: 0 0 10px #EBEBEB;*/
+/*}*/
+
+/*body .dots {*/
+/*  flex: 0 1 auto;*/
+/*  !*Allows too long content to be hidden.*!*/
+/*  overflow: hidden;*/
+/*}*/
+
+/*body .dots::before {*/
+/*  display: block;*/
+/*  white-space: nowrap;*/
+/*  overflow: hidden;*/
+/*  text-overflow: clip;*/
+/*  content: "............................................................................................... ........................................................................................................................................................................................ ............................................................................................... ";*/
+/*}*/
+
+/*body .desc {*/
+/*  flex: 1 0 auto;*/
+/*}*/
+
+/*body .item {*/
+/*  flex: 1 0 auto;*/
+/*}*/
+
+/*body table tr td {*/
+/*  position: relative;*/
+/*}*/
+
+/*body table tr td:first-child:after {*/
+/*  content: "";*/
+/*  border-bottom: dotted 2px;*/
+/*  margin-left: 10px;*/
+/*  content: "";*/
+/*  !* display: inline-block; *!*/
+/*  height: 1px;*/
+/*  bottom: 14px;*/
+/*  position: absolute;*/
+/*  vertical-align: middle;*/
+/*  width: 100%;*/
+/*}*/

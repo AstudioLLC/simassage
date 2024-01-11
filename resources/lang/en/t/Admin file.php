@@ -1,0 +1,1 @@
+<?php return ['file'=>'File','download'=>'Download'];

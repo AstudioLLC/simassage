@@ -1,0 +1,1 @@
+<?php return ['tie discount'=>'Associate a discount with a user','no discount'=>'No discount','edit'=>'Editing a discount for a user'];

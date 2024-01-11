@@ -1,0 +1,1 @@
+<?php return ['top text'=>'Верхний текст','bottom text'=>'Нижний текст','button text'=>'Текст для кнопки ссылки'];

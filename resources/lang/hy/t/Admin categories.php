@@ -1,0 +1,1 @@
+<?php return ['subcategory'=>'բաժնի մեջ','change category'=>'Փոխել բաժինը','make Category'=>'Դարձնել բաժին','show home'=>'Ցուցադրել գլխավոր էջում','filter add'=>'Կցել ֆիլտր կատեգորիային'];

@@ -1,0 +1,1 @@
+<?php return ['Site users'=>'Կայքից օգտվողներ','Letters'=>'Նամակներ','Items'=>'Ապրանքներ','Statistics'=>'Վիճակագրություն','Profile settings'=>'Անձնական էջի կարգավորումներ','Show page'=>'Դիտել կայքը','Logout'=>'Դուրս գալ','Go back'=>'Վերադառնալ'];

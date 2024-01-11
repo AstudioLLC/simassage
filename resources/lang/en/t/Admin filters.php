@@ -1,0 +1,1 @@
+<?php return ['country'=>'Country','color'=>'Color','criterions'=>'criterions','title'=>'Enter the title'];

@@ -1,0 +1,1 @@
+<?php return ['login'=>'Login','register'=>'Register','call us'=>'Call us','our address'=>'Our address','catalog'=>'Catalog','basket'=>'Basket','favorite'=>'Favorites','cabinet'=>'cabinet','catalog see all'=>'All','login text'=>'Comfort-Rv'];

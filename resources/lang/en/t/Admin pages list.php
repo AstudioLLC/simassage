@@ -1,0 +1,1 @@
+<?php return ['name'=>'Title','satus'=>'Satus','action'=>'Action','active'=>'Active','inactive'=>'Not active','image'=>'Picture','empty'=>'Empty','code'=>'Code','type'=>'Type','file'=>'File','words'=>'Words','discount'=>'Percentage discount','lock'=>'Block','unlock'=>'Unblock','date'=>'Date','category'=>'Category'];

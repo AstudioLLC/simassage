@@ -1,0 +1,1 @@
+<?php return ['images'=>'Images','add'=>'Add','alt'=>'Alt attribute','title'=>'Title','gallery'=>'Gallery'];

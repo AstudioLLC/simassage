@@ -1,0 +1,1 @@
+<?php return ['email'=>'Էլ. Հասցե','password'=>'Գաղտնաբառ','forgot password'=>'Մոռացել եք գաղտնաբառը ?'];

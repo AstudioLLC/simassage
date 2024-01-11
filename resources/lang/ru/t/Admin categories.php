@@ -1,0 +1,1 @@
+<?php return ['subcategory'=>'в раздел','change category'=>'Изменить раздел','make Category'=>'Сделать разделом','show home'=>'Показать на главной','filter add'=>'Прикрепление фильтров к категории'];

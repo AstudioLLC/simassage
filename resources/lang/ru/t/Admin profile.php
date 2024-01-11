@@ -1,0 +1,1 @@
+<?php return ['name'=>'Имя','email'=>'Эл. почта','current password'=>'Текущий пароль','password'=>'Пароль','change password'=>'Изменить пароль','new password'=>'Новый пароль','password repeat'=>'Повторите пароль','forgot password'=>'Забыли пароль?','login'=>'Войти','Admin panel'=>'Панель администратора'];

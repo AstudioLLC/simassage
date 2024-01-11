@@ -1,0 +1,88 @@
+
+.slider-section .swiper-slide {
+ height: 800px;
+ width: 100%;
+  position: relative;
+}
+.img-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-position: center !important;
+  background-size: cover !important;
+}
+/*.one {*/
+/*  background-image: url('../img/Rectangle\ 2.png');*/
+/*}*/
+
+/*.two {*/
+/*  background-image: url('../img/headway-5qgiuubxkwm-unsplash.jpg');*/
+/*}*/
+
+/*.three {*/
+/*  background-image: url('../img/linkedin-sales-navigator-1669702-unsplash.jpg');*/
+/*}*/
+
+.bolder-900 {
+  font-weight: 900;
+}
+
+/*****************/
+.swiper-container {
+  width: 100%;
+}
+
+.slider-section .swiper-slide {
+  overflow: hidden;
+}
+
+
+.slider-text{
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 160px;
+}
+
+
+@media all and (max-width: 1199px){
+  .slider-section .swiper-slide {
+    height: 530px;
+    width: 100%;
+     position: relative;
+   }
+
+   .slider-text {
+    font-size: 35px;
+    margin-bottom: 57px;
+}
+}
+
+@media all and (max-width: 767px){
+  .slider-section .swiper-slide {
+    height: 330px;
+    width: 100%;
+     position: relative;
+   }
+   .slider-text {
+    font-size: 30px;
+    margin-bottom: 57px;
+}
+}
+
+@media all and (max-width: 575px){
+  .slider-section .swiper-slide {
+    height: 160px;
+    width: 100%;
+     position: relative;
+   }
+   .slider-text {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+}

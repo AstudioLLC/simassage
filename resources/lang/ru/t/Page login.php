@@ -1,0 +1,1 @@
+<?php return ['email'=>'Эл. почта','password'=>'Пароль','forgot password'=>'Забыли пароль ?'];

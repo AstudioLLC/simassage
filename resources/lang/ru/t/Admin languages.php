@@ -1,0 +1,1 @@
+<?php return ['main'=>'основной','secondary'=>'вторичный','activity'=>'Активность','only cms'=>'Только на CMS','to cms'=>'На CMS','url generator'=>'URL Генератор'];

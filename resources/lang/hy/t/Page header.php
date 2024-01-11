@@ -1,0 +1,1 @@
+<?php return ['login'=>'Մուտք','register'=>'Գրանցվել','call us'=>'Զանգահարեք մեզ','our address'=>'Մեր հասցեն','catalog'=>'Տեսականի','basket'=>'Զամբյուղ','favorite'=>'Հավանածներ','cabinet'=>'Անձնական էջ','catalog see all'=>'Բոլորը','login text'=>'Comfort-Rv'];
