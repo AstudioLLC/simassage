@@ -60,7 +60,7 @@
 
         .media-filter__item {
             border: none;
-            outline: none;
+            outline: none !important;
             background: transparent;
             font-weight: normal;
             font-style: italic;
@@ -87,7 +87,7 @@
         .gallery-row__item {
             cursor: pointer;
             padding: 6px;
-            /*width: 12.5%;*/
+            width: 25%;
         }
 
         .gallery-video>a {

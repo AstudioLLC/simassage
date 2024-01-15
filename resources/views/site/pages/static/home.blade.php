@@ -177,9 +177,9 @@
                                     @endforeach
                                 @endif
                             </div>
-                            <div class="about-btn">
-                                <button type="button">{{t('Page home.Online  Appointment')}}</button>
-                            </div>
+{{--                            <div class="about-btn">--}}
+{{--                                <button type="button">{{t('Page home.Online  Appointment')}}</button>--}}
+{{--                            </div>--}}
                         </div>
 
                     </div>
@@ -413,7 +413,6 @@
                                             </select>
                                         </label>
                                     </div>
-
                                 </div>
                                 <div class="contact-form-item">
                                     <label class="contact-form-label">{{t('Page home.Email address')}}
@@ -610,10 +609,12 @@
 
     <section class="question-section">
         <div class="container">
+            @if($questions->count())
             <div class="section-title">
                 <img src="{{asset('image/flower-2.png')}}" alt="">
                 <h2 class="section-title-text">{{__('app.faq')}}</h2>
             </div>
+            @endif
             <div class="qusetion-block">
                 <div class="wrapper">
                     <div class="acordeon-core">

@@ -68,9 +68,9 @@
                                     @endforeach
                                 @endif
                             </div>
-                            <div class="about-btn">
-                                <button type="button">Запись на прием</button>
-                            </div>
+{{--                            <div class="about-btn">--}}
+{{--                                <button type="button">Запись на прием</button>--}}
+{{--                            </div>--}}
                         </div>
 
                     </div>

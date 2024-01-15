@@ -151,7 +151,7 @@
             </div>
         </div>
         <div class="footer-item footer-end-block">
-            <p>© Massages {{date('Y')}}. </p>
+            <p>© Si Massage  {{date('Y')}}. </p>
             <p><a href="https://astudio.am/{{ app()->getLocale() }}" target="_blank">{{t('Page home.Design and programming ASTUDIO LLC')}}</a></p>
         </div>
     </div>

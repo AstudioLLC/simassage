@@ -932,9 +932,14 @@ line-height: 28px; /* 175% */
   margin-bottom: 150px;
 }
 
-
+/*.header-section .lang-tel-block{*/
+/*    display: none;*/
+/*}*/
 
 @media all and (max-width: 1024px){
+    /*.lang-tel-block {*/
+    /*    display: flex;*/
+    /*}*/
   .error-section{
     margin: 80px 0 50px;
   }
@@ -1876,6 +1881,10 @@ padding: 0;
 .services-page-section .product-card-item {
   width: 100%;
 }
+    .pages-header-logo {
+        width: 30% !important;
+    }
+
 }
 
 
@@ -2067,6 +2076,10 @@ padding: 0;
 .contact-page-section{
   margin-bottom: 20px;
 }
+.pages-header-nav{
+ padding: 0;
+}
+
 
 @media (max-width: 510px) {
     .form__footer {
@@ -2143,9 +2156,12 @@ padding: 0;
     padding: 8px 0;
     width: 15%;
 }
+.pages-header-logo a{
+    display: block;
+}
 
 .pages-header-logo img{
-    max-width: 140px;
+    max-width: 110px;
 }
 
 .pages-header-nav{
@@ -2153,7 +2169,7 @@ padding: 0;
     display: flex;
     align-items: center;
     justify-content: end;
-    padding: 22px 0 20px;
+    padding: 22px 0 0;
 }
 .header-two .burger-close-btn {
     display: none;

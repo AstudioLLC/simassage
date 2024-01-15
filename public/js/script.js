@@ -5,7 +5,9 @@ const lang_tel_block = document.querySelector(".lang-tel-block");
 const first_header = document.querySelector(".first-header");
 const header = document.querySelector("header");
 const nav_bar_icon = document.querySelector(".navbar-app-icon");
+
 // first_header.style.transition = "none";
+// header_section.style.display='none'
 
 window.addEventListener('load', () => {
         first_header.style.marginTop = -first_header.offsetHeight + "px";
@@ -24,6 +26,7 @@ window.addEventListener("scroll", (event) => {
 
             if (window.matchMedia("(max-width: 1024px)").matches) {
                 header_section.append(lang_tel_block);
+
             }
         } else {
             first_header.style.marginTop = 0 + "px";
@@ -32,6 +35,7 @@ window.addEventListener("scroll", (event) => {
             header_section.prepend(for_empty_img);
             if (window.matchMedia("(max-width: 1024px)").matches) {
                 first_header.append(lang_tel_block);
+
             }
             header.style.background = "transparent";
         }
@@ -228,10 +232,10 @@ Object.assign(swiperEl, {
 });
 swiperEl.initialize();
 
-document.querySelector('.back-to-top').addEventListener('click', function () {
-    scrollTo({
-        behavior: 'smooth',
-        left: 0,
-        top: 0
-    })
-})
+// document.querySelector('.back-to-top').addEventListener('click', function () {
+//     scrollTo({
+//         behavior: 'smooth',
+//         left: 0,
+//         top: 0
+//     })
+// })

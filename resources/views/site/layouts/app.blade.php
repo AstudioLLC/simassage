@@ -45,12 +45,13 @@
 <main>
     @yield('content')
 </main>
-@include('site.components.footer')
 <a class="back-to-top">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"></path>
     </svg>
 </a>
+@include('site.components.footer')
+
 {{--<script>--}}
 {{--    window.token = '{!! @csrf_token() !!}';--}}
 {{--    window.addFavoriteUrl = '{{ route('session.basket.add') }}'--}}
@@ -66,26 +67,15 @@
 {{--<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>--}}
 {{--</script>--}}
 @yield('js')
-{{--<script>--}}
-{{--    $(window).scroll(function () {--}}
-{{--    // Show button after 100px--}}
-{{--        var showAfter = 100;--}}
-
-{{--        if ($(this).scrollTop() > showAfter) {--}}
-{{--            $('.back-to-top').fadeIn();--}}
-{{--            } else {--}}
-{{--                $('.back-to-top').fadeOut();--}}
-{{--            }--}}
-{{--        });--}}
-{{--    //Click event to scroll to top--}}
-
-{{--    $('.back-to-top').click(function () {--}}
-{{--        $('html, body').animate({--}}
-{{--            scrollTop: 0--}}
-{{--        }, 800);--}}
-{{--        return false;--}}
-{{--    });--}}
-{{--</script>--}}
+<script>
+    document.querySelector('.back-to-top').addEventListener('click', function () {
+        scrollTo({
+            behavior: 'smooth',
+            left: 0,
+            top: 0
+        })
+    })
+</script>
 
 <script src="{{ asset('js/jquery.min.js') }}"></script>
 <script src="{{ asset('js/swiper-bundle.min.js') }}"></script>
