@@ -6,7 +6,6 @@ return [
     'address' => 'Address',
     'email' => 'Email',
     'services' => 'Our services',
-    'relax' => 'BOOK AND FEEL OUR INCREDIBLE SPA EXPERIENCE',
     'masseuses' => 'Our masseuses',
     'help' => 'We will help you relax',
     'Contact us' => 'Contact',

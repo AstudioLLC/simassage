@@ -41,6 +41,7 @@ class StaticPagesController extends BaseController
         $sliders = Slider::where('active', 1)->sort()->get();
         $about = Page::where(['active' => 1, 'static' => 'about'])->first();
         $home = Page::where(['active' => 1, 'static' => 'home'])->first();
+        $homeVideo = Video::where(['video'=>'pages','key'=>$home->id])->first();
         $departments = Page::where(['parent_id' => 67, 'active' => true])->sort()->get();
         $doctors = Member::where(['active' => true, 'show_home' => true])->limit(6)->sort()->get();
         $news = News::where('active', 1)->orderBy('created_at', 'desc')->limit('4')->get();
@@ -63,7 +64,8 @@ class StaticPagesController extends BaseController
                     'home',
                     'questions',
                     'galleryPageMedia',
-                    'galleryPage'
+                    'galleryPage',
+                    'homeVideo'
                 )
             );
     }

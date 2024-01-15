@@ -68,7 +68,7 @@ class Page extends AbstractModel
     public static $imageSizesHome = [
         [
             'width' => 1920,
-            'height' => 650,
+            'height' => 800,
             'entityPath' => 'pages',
             'size' => 'thumbnail'
         ]

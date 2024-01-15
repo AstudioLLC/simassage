@@ -219,10 +219,14 @@
     </section>
 
     <section class="video-section">
+        @if($homeVideo)
+        <p>{{$homeVideo->title}}</p>
+        <p>{{$homeVideo->link}}</p>
+        @endif
         <div class="video-block">
             <img src="{{ $home->getImageUrl('thumbnail', $home->image) }}" alt="" class="img">
             <div class="video-info-block">
-                <h3 class="video-title">{{__('app.relax')}}</h3>
+                <h3 class="video-title">{!! $home->content !!}</h3>
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="89" height="89" viewBox="0 0 89 89" fill="none">
                         <path
