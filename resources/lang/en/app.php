@@ -19,6 +19,8 @@ return [
     'show_price' => 'View Prices' ,
     'working time' => 'Opening hours',
     'working day' => 'Mon-Sun',
+    '18+' => 'I am 18 years or older - Login',
+    '18-' => 'I am under 18 - Exit',
 
     'Role' => [
         0 => 'Chief Administrator',
