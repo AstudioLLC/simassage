@@ -34,7 +34,14 @@
     <link rel="stylesheet" href="{{ asset('fontawesome/css/all.css') }}">
     <link rel="stylesheet" href="{{ asset('css/static/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/static/main.css') }}">
-
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C4S45V7Q8R"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-C4S45V7Q8R');
+    </script>
 
     @yield('css')
     @stack('css')
@@ -93,6 +100,7 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 <script src="{{ asset('js/script.js') }}"></script>
 <script src="{{ asset('js/script2.js') }}"></script>
+
 @yield('js')
 @stack('js')
 </body>
