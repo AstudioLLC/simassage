@@ -1,3 +1,16 @@
+<div class="modal fade" id="adultModalCenter" tabindex="-1" role="dialog" aria-labelledby="adultModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document" id="myModal">
+        <div class="modal-content">
+            <div class="modal-body">
+                {{$notifyText->adult_message }}
+                <div class="modal-footer">
+                    <button type="button" class="btn" style="background-color: #800020; color: #fff;" onclick="saveChanges()">Save changes</button>
+                    <button type="button" class="btn btn-dark" onclick="redirectToGoogle()">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 @if(Request::getPathInfo() == '/' || Request::getPathInfo() == '/ru' || Request::getPathInfo() == '/en')
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -276,3 +289,37 @@
         </div>
     </header>
 @endif
+@push('js')
+    <!-- Your modal HTML code and custom script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Check if 'chackedAdult' is true in local storage
+            var isChackedAdult = localStorage.getItem('chackedAdult') === 'true';
+
+            // If 'chackedAdult' is true, don't show the modal
+            if (!isChackedAdult) {
+                var modal = document.getElementById('adultModalCenter');
+                modal.classList.remove('fade');
+                modal.classList.add('show');
+            }
+        });
+
+        function saveChanges() {
+            // Save the flag in local storage
+            localStorage.setItem('chackedAdult', 'true');
+
+            console.log('Changes saved!');
+
+            // Close the modal after saving changes
+            var modal = document.getElementById('adultModalCenter');
+            modal.classList.remove('show');
+            modal.classList.add('fade');
+        }
+
+        function redirectToGoogle() {
+            // Redirect to Google.com
+            window.location.href = 'https://www.google.com';
+        }
+    </script>
+
+@endpush

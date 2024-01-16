@@ -26,13 +26,13 @@
                        value="{{ old('thanks_message.'.$iso, tr($item, 'thanks_message', $iso)) }}">
                 @if ($errors->has('contact_message'))
                     <span class="invalid-feedback" role="alert">
-                        <strong>{{ $errors->first('contact_message') }}</strong>
+                        <strong>{{ $errors->first('thanks_message') }}</strong>
                     </span>
                 @endif
                 @endbylang
-               
+
             </div>
-         
+
             <div class="form-group border-bottom">
                 @bylang([
                 'id' => 'form_title1',
@@ -49,7 +49,24 @@
                     </span>
                 @endif
                 @endbylang
-               
+
+            </div>
+            <div class="form-group border-bottom">
+                @bylang([
+                'id' => 'form_title3',
+                'tp_classes' => 'little-p',
+                'title' => __('app.Thanks Notification')])
+                <input type="text"
+                       name="adult_message[{!! $iso !!}]"
+                       class="form-control form-control-sm form-control-alternative{{ $errors->has('adult_message') ? ' is-invalid' : '' }}"
+                       placeholder="{{ __('Adult Notification') }}"
+                       value="{{ old('adult_message.'.$iso, tr($item, 'adult_message', $iso)) }}">
+                @if ($errors->has('adult_message'))
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $errors->first('adult_message') }}</strong>
+                    </span>
+                @endif
+                @endbylang
             </div>
             @submit(['title' => null])@endsubmit
         </div>

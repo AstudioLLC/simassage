@@ -26,6 +26,7 @@ class UpdateNotificationTextRequest extends FormRequest
         return [
             'contact_message' => 'nullable|array',
             'thanks_message' => 'nullable|array',
+            'adult_message' => 'nullable|array',
         ];
     }
 }

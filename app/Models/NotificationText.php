@@ -21,6 +21,7 @@ class NotificationText extends AbstractModel
         'id',
         'contact_message',
         'thanks_message',
+        'adult_message',
         'created_at',
         'updated_at'
     ];
@@ -31,5 +32,6 @@ class NotificationText extends AbstractModel
     public $translatable = [
         'contact_message',
         'thanks_message',
+        'adult_message',
     ];
 }

@@ -17,7 +17,7 @@
     <div class="container-fluid mt--6">
         <div class="card">
             <div class="card-header border-0">
-                <h3 class="mb-0">{{ __('app.Information') }}</h3>
+                <h3 class="mb-0">{{ __('Notification Texts') }}</h3>
             </div>
             <div class="card-body border-0">
                 @include('admin.pages.notificationText._form', ['item' => $item ?? null])

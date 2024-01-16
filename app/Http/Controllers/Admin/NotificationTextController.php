@@ -101,7 +101,6 @@ class NotificationTextController extends AdminBaseController
     public function update(UpdateNotificationTextRequest $request, int $id)
     {
         $item = $this->model::findOrFail($id);
-
         $item->update($request->except('_token', '_method'));
 
         return redirect()
